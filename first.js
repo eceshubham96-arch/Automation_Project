@@ -26,7 +26,7 @@
 // console.groupEnd();
 
 // console.group("login api debugging");
-// // console.debug("login api debugging");
+ // console.debug("login api debugging");
 // console.log("restarted");
 // console.error("failed to fetch user");
 // console.log("retrying");
@@ -47,7 +47,7 @@ console.log("price:", price);
 // is
 // let isloggedin = true;
 let isloggedout = false;
-0
+
 if (isloggedout) {
     console.log("welcome to the dashboard");
 } else {
@@ -61,7 +61,6 @@ if (isloggedin) {
 } else {
     console.log("please login to continue");
 }
-    
 
 let msg = "hello world";
 
@@ -70,4 +69,10 @@ if(msg) {
 } else {
     console.log("message is empty");
 }
-git
+let emptyString = "shubham";
+
+if (emptyString) {
+    console.log(`string is not empty — name: ${emptyString}`);
+} else {
+    console.log("string is empty");
+}
