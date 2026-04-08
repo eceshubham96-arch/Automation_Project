@@ -77,7 +77,7 @@ let emptyString = "shub";
 if (emptyString) {
     console.log('string is not empty — name: ' + emptyString);
 } else {
-    console.log("string is empty - name:shubham" + emptyString);
+    console.lo
 }
 
 let fullstring = "";
@@ -86,5 +86,13 @@ if(fullstring) {
 } else {
     console.log("string is empty - name:shub " + fullstring);
 }
+let name = "shubham";
+// start a timer before using timeLog/timeEnd
+console.time("name length calculation");
+let nameLength = name.length;
+console.timeLog("name length calculation");
+console.timeEnd("name length calculation");
+console.log("length of the name: " + nameLength);
+
 
 
