@@ -69,10 +69,10 @@ if(msg) {
 } else {
     console.log("message is empty");
 }
-let emptyString = "shubham";
+let emptyString = "shub";
 
 if (emptyString) {
-    console.log(`string is not empty — name: ${emptyString}`);
+    console.log('string is not empty — name: ' + emptyString);
 } else {
-    console.log("string is empty");
+    console.log("string is empty - name:shubham" + emptyString);
 }
