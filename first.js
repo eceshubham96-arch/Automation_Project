@@ -69,6 +69,9 @@ if(msg) {
 } else {
     console.log("message is empty");
 }
+
+// string functions
+
 let emptyString = "shub";
 
 if (emptyString) {
@@ -76,3 +79,11 @@ if (emptyString) {
 } else {
     console.log("string is empty - name:shubham" + emptyString);
 }
+
+let fullstring = "";
+if(fullstring) {
+    console.log("string is not empty - name: " + fullstring);
+} else {
+    console.log("string is empty - name:shub " + fullstring);
+}
+
