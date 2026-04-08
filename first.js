@@ -87,3 +87,4 @@ if(fullstring) {
     console.log("string is empty - name:shub " + fullstring);
 }
 
+
