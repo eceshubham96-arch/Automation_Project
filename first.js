@@ -129,7 +129,7 @@ if (cartSummary.totalPrice > 60) {
 }
 
 console.group("login api debugging");
- console.debug("login api debugging");
+//  console.debug("login api debugging");
 console.log("restarted");
 console.error("failed to fetch user");
 console.log("retrying");
