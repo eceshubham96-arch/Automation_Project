@@ -94,5 +94,39 @@ console.timeLog("name length calculation");
 console.timeEnd("name length calculation");
 console.log("length of the name: " + nameLength);
 
+// Hard-coded learning example: shopping cart summary
+let cart = [
+    { item: "Apple", quantity: 3, unitPrice: 10 },
+    { item: "Banana", quantity: 2, unitPrice: 5 },
+    { item: "Cake", quantity: 1, unitPrice: 50 }
+];
+
+function calculateCart(cartItems) {
+    let totalQuantity = 0;
+    let totalPrice = 0;
+
+    for (let i = 0; i < cartItems.length; i++) {
+        let product = cartItems[i];
+        totalQuantity += product.quantity;
+        totalPrice += product.quantity * product.unitPrice;
+        console.log("Item:", product.item, "x", product.quantity, "=", product.quantity * product.unitPrice);
+    }
+
+    return {
+        totalQuantity: totalQuantity,
+        totalPrice: totalPrice
+    };
+}
+
+let cartSummary = calculateCart(cart);
+console.log("Total items in cart:", cartSummary.totalQuantity);
+console.log("Total cart price:", cartSummary.totalPrice);
+
+if (cartSummary.totalPrice > 60) {
+    console.log("You have a large order. Apply a discount or ship for free.");
+} else {
+    console.log("Your order is small. Add more items to qualify for a discount.");
+}
+
 
 
