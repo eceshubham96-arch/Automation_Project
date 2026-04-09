@@ -128,5 +128,13 @@ if (cartSummary.totalPrice > 60) {
     console.log("Your order is small. Add more items to qualify for a discount.");
 }
 
+console.group("login api debugging");
+ console.debug("login api debugging");
+console.log("restarted");
+console.error("failed to fetch user");
+console.log("retrying");
+console.warn("api is slow");
+console.groupEnd();
+
 
 
