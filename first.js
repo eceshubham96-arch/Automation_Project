@@ -44,7 +44,6 @@ console.log("price:", price);
 // console.log("fullname:" + fullname);
 
 // // boolean type variables
-// is
 // let isloggedin = true;
 let isloggedout = false;
 
@@ -77,7 +76,7 @@ let emptyString = "shub";
 if (emptyString) {
     console.log('string is not empty — name: ' + emptyString);
 } else {
-    console.lo
+    console.log('string is empty');
 }
 
 let fullstring = "";
@@ -120,10 +119,10 @@ function calculateCart(cartItems) {
 
 let cartSummary = calculateCart(cart);
 console.log("Total items in cart:", cartSummary.totalQuantity);
-console.log("Total cart price:", cartSummary.totalPrice);
+console.log("Total price:", cartSummary.totalPrice);
 
-if (cartSummary.totalPrice > 60) {
-    console.log("You have a large order. Apply a discount or ship for free.");
+if (cartSummary.totalPrice > 50) {
+    console.log("Your order qualifies! Apply a discount or ship for free.");
 } else {
     console.log("Your order is small. Add more items to qualify for a discount.");
 }
@@ -137,4 +136,10 @@ console.warn("api is slow");
 console.groupEnd();
 
 
+console.group('user profile');
+console.log('name');
+console.error('gaand mra jaake ');
+console.log('bsdk');
+console.warn('sorry');
+console.groupEnd();
 
