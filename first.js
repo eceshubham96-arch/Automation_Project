@@ -117,15 +117,15 @@ function calculateCart(cartItems) {
     };
 }
 
-let cartSummary = calculateCart(cart);
-console.log("Total items in cart:", cartSummary.totalQuantity);
-console.log("Total price:", cartSummary.totalPrice);
+// let cartSummary = calculateCart(cart);
+// console.log("Total items in cart:", cartSummary.totalQuantity);
+// console.log("Total price:", cartSummary.totalPrice);
 
-if (cartSummary.totalPrice > 50) {
-    console.log("Your order qualifies! Apply a discount or ship for free.");
-} else {
-    console.log("Your order is small. Add more items to qualify for a discount.");
-}
+// if (cartSummary.totalPrice > 50) {
+//     console.log("Your order qualifies! Apply a discount or ship for free.");
+// } else {
+//     console.log("Your order is small. Add more items to qualify for a discount.");
+// }
 
 console.group("login api debugging");
 //  console.debug("login api debugging");
