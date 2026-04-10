@@ -9,3 +9,75 @@
    <script src="first.js"></script> 
     </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bestie Card</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ffd6e0, #ffe9b3);
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      color: #ff4d6d;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #333;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background: #ff4d6d;
+      color: white;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #e63950;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h2>💛 Bestie</h2>
+    <p>You’re my bestie, Kushika — thanks for always being there 💛</p>
+    <button onclick="showMessage()">Click Me</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("You are special 💛");
+    }
+  </script>
+
+</body>
+</html>

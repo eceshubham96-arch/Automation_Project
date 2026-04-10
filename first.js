@@ -142,4 +142,9 @@ console.error('gaand mra jaake ');
 console.log('bsdk');
 console.warn('sorry');
 console.groupEnd();
+ let x=22;
+ let y=('shubham');
+ console.log('x: ' + x + '\ny: '+ y);
 
+
+ 
