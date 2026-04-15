@@ -81,8 +81,8 @@
 
 
 
-// // let cartSummary = calculateCart(cart);
-// // console.log("Total items in cart:", cartSummary.totalQuantity);
+// let cartSummary = calculateCart(cart);
+// console.log("Total items in cart:", cartSummary.totalQuantity);
 // // console.log("Total price:", cartSummary.totalPrice);
 
 // // if (cartSummary.totalPrice > 50) {
@@ -135,12 +135,12 @@
 // console.log(arr[2]); // ?
 
 //array is a data structure that can hold multiple values in a single variable.
-let arr = [9, 18, 27];
+// let arr = [9, 18, 27];
 
-// console.log(arr[1]); 
-arr[1] = arr[1] + 10;
-arr.push(20);
-console.log(arr);
+// // console.log(arr[1]); 
+// arr[1] = arr[1] + 10;
+// arr.push(20);
+// // console.log(arr);
 
 
 let name = "Shubham";   // string
@@ -150,6 +150,16 @@ let isStudent = true;   // boolean
 console.log(name);
 console.log(age);
 console.log(isStudent);
+
+let arr = [1, 2, 3, 4, 5]; // array
+arr[2] = arr[2] + 25;
+arr.push(5);
+console.log(arr);
+
+let x = null;
+let y = undefined;
+let z = null;
+console.log(x + " " + "\n" + y + ''+ '\n' +z);
 
 
  
