@@ -143,7 +143,7 @@
 // // console.log(arr);
 
 
-// let name = "Shubham";   // string
+// let name = "Shubh  am";   // string
 // let age = 24;           // number
 // let isStudent = true;   // boolean
 
@@ -178,9 +178,78 @@
 
 
 
- function sayHello() {
-    console.log('hello nworld');
- }
-    sayHello();
-    
+//  function greet(name) {
+//     console.log('hello'  +   name);
+//  }
+//     greet(' shubham');
+//   let user = "";
+
+// if (user) {
+//   console.log("Logged in");
+// } else {
+//   console.log("Login required"  + " SHUBHAM");
+// }
+
+// if else conditions 
+
+// let marks = 75;
+
+// if (marks >= 90) {
+//   console.log("A grade");
+// } else if (marks >= 50) {
+//   console.log("Pass");
+// } else {
+//   console.log("Fail");
+// }
+ 
+
+// let num = 65;
+// if (num >= 90) {
+//   console.log("A grade");
+// } else if (num <= 50) {
+//   console.log("Pass");
+// } else {
+//   console.log("Fail");
+// }
+
+
+// let num = 0;
+// if (num == 0) {
+//  console.log("zero");
+// } else {
+//  console.log("valid number");
+// }
+// console.log("10" == 10);
+// console.log("10" === 10);
+
+// console.log(false == "");
+// console.log(false === "");
+
+// let password = "1234";
+//  if (password=="1234") {
+//   console.log("password is correct");
+//  }else{
+//   console.log("password is incorrect");
+//  }
+
+
+ let username = "shubham";
+ let password = "1234";
+ if (username) {
+  console.log("username is valid");
+  } else if (password) {
+    console.log("password is valid");
+  } else {
+    console.log("username and password are invalid");
+  }
+
+
+
+
+
+
+
+
+
+
 
